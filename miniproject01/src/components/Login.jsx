@@ -35,7 +35,7 @@ const Login = () => {
        >Submit</button>
        <button
        onClick={() => {
-       setUserName("Fuck you");
+       setUserName("");
        setPassword("");
 
        }}
