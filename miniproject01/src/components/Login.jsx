@@ -17,7 +17,6 @@ const Login = () => {
       <input
         type="text"
         value={userName}
-     
         onChange={(e) => setUserName(e.target.value)}
         placeholder="username"
       />
@@ -27,20 +26,15 @@ const Login = () => {
         onChange={(e) => setPassword(e.target.value)}
         placeholder="password"
       />
+      <button onClick={HandleSubmit}>Submit</button>
       <button
-
-       onClick={HandleSubmit}
-       
-
-       >Submit</button>
-       <button
-       onClick={() => {
-       setUserName("");
-       setPassword("");
-
-       }}
-       
-       >Reset</button>
+        onClick={() => {
+          setUserName("");
+          setPassword("");
+        }}
+      >
+        Reset
+      </button>
     </div>
   );
 };

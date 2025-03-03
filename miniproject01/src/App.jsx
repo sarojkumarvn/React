@@ -9,7 +9,7 @@ const App = () => {
 
   return (
     <UserContextProvider>
-    <h1>Saroj is yoyo</h1>
+    <h1>Saroj is my friend </h1>
     <Login/>
    <Profile/>
     </UserContextProvider>
